@@ -12,6 +12,7 @@ $ git clone --depth 1 https://github.com/masmullin2000/rust_starter_project <my_
 $ rm -rf <my_project_name>/.git
 $ cd <my_project_name>
 $ git init
+$ sed -i "s/rust_starter_project/<my_project_name>/g" Cargo.toml
 ```
 
 Where <my_project_name> is the name of the project you want to start
